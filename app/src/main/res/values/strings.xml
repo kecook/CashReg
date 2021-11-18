@@ -14,4 +14,6 @@
     <string name="zero_btn">0</string>
     <string name="clear_btn">C</string>
     <string name="quantity_text">Quantity</string>
+    <string name="history">History</string>
+    <string name="restock">Restock</string>
 </resources>
