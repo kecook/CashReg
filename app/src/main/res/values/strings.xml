@@ -16,4 +16,7 @@
     <string name="quantity_text">Quantity</string>
     <string name="history">History</string>
     <string name="restock">Restock</string>
+    <string name="productType">Product Type</string>
+    <string name="manager_btn">Manager</string>
+    <string name="buy_btn">Buy</string>
 </resources>

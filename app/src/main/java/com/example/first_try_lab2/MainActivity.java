@@ -74,6 +74,7 @@ public class MainActivity<onClick> extends AppCompatActivity implements View.OnC
         total_amount = findViewById(R.id.total_amount);
         quantity = findViewById(R.id.quantity);
         inventory_list = findViewById(R.id.inventory_list);
+        manager_btn = findViewById(R.id.manager_btn);
 
 
         one_btn.setOnClickListener(this);
@@ -88,7 +89,7 @@ public class MainActivity<onClick> extends AppCompatActivity implements View.OnC
         zero_btn.setOnClickListener(this);
         clear_btn.setOnClickListener(this);
         buy_btn.setOnClickListener(this);
-//        manager_btn.setOnClickListener(this);
+       manager_btn.setOnClickListener(this);
 
 //        inventory_list.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 //            @Override
@@ -148,6 +149,7 @@ public class MainActivity<onClick> extends AppCompatActivity implements View.OnC
 
             }
         } else if (view.getId() == R.id.manager_btn) {
+            Toast.makeText(getApplicationContext(),"hello", Toast.LENGTH_LONG).show();
             Intent myIntent = new Intent(getApplicationContext(), ManagerPanelActivity.class);
             Bundle bundle = new Bundle();
             bundle.putParcelableArrayList("history list", myHistory);
